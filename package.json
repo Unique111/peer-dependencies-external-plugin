@@ -11,6 +11,9 @@
     "type": "git",
     "url": "ssh://gitlab@git.garena.com:2222/shopee/space/front-end/peer-dependencies-external-plugin.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.garenanow.com"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
