@@ -1,6 +1,6 @@
 {
   "name": "peer-dependencies-external-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform peerDependecies section of package.json to externals configuration of webpack.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "url": "ssh://gitlab@git.garena.com:2222/shopee/space/front-end/peer-dependencies-external-plugin.git"
   },
   "publishConfig": {
-    "registry": "https://npm.garenanow.com"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +23,7 @@
     "eslint-config-standard": "^12.0.0",
     "rollup": "^0.66.6",
     "standard": "^12.0.1",
-    "webpack": "^4.26.1"
+    "webpack": "^4.0.0"
   },
   "peerDependencies": {
     "webpack": "^4.26.1"
